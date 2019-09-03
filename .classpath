@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="Text"/>
+	<classpathentry kind="src" path="BackgroundIllusts"/>
+	<classpathentry kind="src" path="ChracterIllusts"/>
+	<classpathentry kind="src" path="illusts"/>
+	<classpathentry kind="src" path="UI"/>
+	<classpathentry kind="src" path="save"/>
+	<classpathentry kind="lib" path="C:/Users/MYC/eclipse-workspace/TRPG1/jdom-2.0.6.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

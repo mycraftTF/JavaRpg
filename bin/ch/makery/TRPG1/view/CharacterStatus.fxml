@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="BackgroundIllust" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="CharacterIllust" fitHeight="600.0" fitWidth="400.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="hp" layoutX="650.0" layoutY="132.0" prefHeight="14.0" prefWidth="165.0" text="hp:  100/100" />
+      <Label fx:id="mp" layoutX="815.0" layoutY="132.0" prefHeight="18.0" prefWidth="165.0" text="mp: 100/100" />
+      <Label fx:id="mp1" layoutX="650.0" layoutY="181.0" prefHeight="18.0" prefWidth="165.0" text="Label" />
+   </children>
+</AnchorPane>

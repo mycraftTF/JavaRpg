@@ -1,0 +1,5 @@
+say 이문혁: ㅁㄴㅇㄻ ㅁㄴㄹㅇ ㅁㄴㅇㄹ233
+setScene 지하통로-toavmf.jpg
+say ㅁㄴㅇㄹ: ㄷ거ㅑ뎋ㄱ ㅇㅀ  ㅇㅎㄱㄱ
+say asdf:asdfasdfasdfasdf
+setScene 교회-toavmf.jpg
