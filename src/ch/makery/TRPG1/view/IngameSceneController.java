@@ -94,7 +94,8 @@ public class IngameSceneController  implements Initializable {
     	
     	
     	Text.setOnMouseClicked(event -> {
-    		while(talks[currentLine] != null) {	//만약 현대사가 null값이 아니라면 :
+    		
+    		if(talks[currentLine] != null) {	//만약 현대사가 null값이 아니라면 :
     			String[] sc = talks[currentLine].split(" ", 2);
     			
     			if(talks[currentLine].contains("setScene")) {	//만약 출력하려고 하는 문자열이 셋신 명령어라면
@@ -105,13 +106,14 @@ public class IngameSceneController  implements Initializable {
     			else if(talks[currentLine].contains("say")) {// 만약 문자열이 say 명령어라면
     				//Text.setText(sc[1]);
     				Text.setText(sc[1]);
-    				System.out.println(sc[1]);
+    				//System.out.println(sc[1]);
     			}
-        		currentLine++;
+    			currentLine++;
         			
             	
-            	System.out.println("line:" + currentLine + talks[currentLine]);
+            	System.out.println("line:" + currentLine + "    " + talks[currentLine]);
     		}
+    		
     		
     	});
     	
